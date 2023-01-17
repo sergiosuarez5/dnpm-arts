@@ -108,9 +108,16 @@ img{
 
 .section-title, .section-title-center{
     font-size: 35px;
-    color: var(--title-color);
+    color: #B2375C;
     text-align: center;
     margin-bottom: var(--mb-3);
+}
+
+.behan  {
+    color: #B2375C;
+}
+.behan:hover {
+    color: #fff;
 }
 
 .l-main{
@@ -261,6 +268,7 @@ img{
     font-size: var(--biggest-font-size);
     font-weight: var(--font-bold);
     margin-bottom: var(--mb-2);
+    color: #B2375C;
 }
 .home__description{
     margin-bottom: var(--mb-3);
@@ -302,7 +310,7 @@ img{
     font-size: 20px;
 }
 .share__img{
-    width: 40%;
+    width: 100%;
     justify-self: center;
 }
 
@@ -312,7 +320,7 @@ img{
 }
 
 .decoration__data{
-    height: 150px;
+    height: 190px;
     text-align: center;
     padding: 1rem 1rem 2rem;
     background-color: var(--container-color);
@@ -324,7 +332,7 @@ img{
     color: var(--first-color-alt);
 }
 .decoration__p{
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -403,10 +411,11 @@ img{
 }
 
 .send__direction{
-    display: flex;
     background-color: #fff;
     padding: .5rem;
     border-radius: .5rem;
+    text-align: center;
+    justify-content: center;
 }
 
 .send__input{
@@ -436,6 +445,7 @@ img{
 
 .footer__title{
     margin-bottom: var(--mb-2);
+    color: #B2375C;
 }
 .footer__logo, .footer__title{
     font-size: var(--h3-font-size);
